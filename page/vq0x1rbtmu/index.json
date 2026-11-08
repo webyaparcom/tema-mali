@@ -1,0 +1,40 @@
+{
+  "id": "vq0x1rbtmu",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Dosyadan rapora; vadesinden sonrasına.",
+    "en": "From file to report; from deadline to beyond.",
+    "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+  },
+  "keyword": {
+    "tr": "Ofis",
+    "en": "The office",
+    "ar": "المكتب"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "usu0ku",
+      "dqgj75"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:40.783Z",
+  "update": "2026-11-05T23:44:43.813Z"
+}
