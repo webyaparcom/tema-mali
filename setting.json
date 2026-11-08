@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Muhasebe ve danışmanlık; görseller temsilîdir.",
+    "en": "Accounting and advisory; images are representative.",
+    "ar": "محاسبة واستشارية؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "mali, finans, danışmanlık",
+    "en": "accounting, finance, advisory",
+    "ar": "محاسبة، مالية، استشارية"
+  },
+  "category": "Kurumsal",
+  "name": "Eksen Finans",
+  "domain": "mali.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "cormorant-garamond",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#2CB871",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px"
+  },
+  "icon": "icon.png"
+}

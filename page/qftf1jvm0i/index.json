@@ -1,0 +1,41 @@
+{
+  "id": "qftf1jvm0i",
+  "name": {
+    "tr": "Referanslar",
+    "en": "References",
+    "ar": "المرجعيات"
+  },
+  "description": {
+    "tr": "İş ortaklarımız ve müşteri yorumlarımız (kurgusal).",
+    "en": "Our partners and customer reviews (fictional).",
+    "ar": "شركاؤنا وتقييمات عملائنا (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "6x355m",
+      "tq87mu",
+      "dqgj75"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Referanslar",
+    "en": "References",
+    "ar": "المرجعيات"
+  },
+  "date": "2026-11-05T18:58:40.800Z",
+  "update": "2026-11-05T23:44:43.825Z"
+}
