@@ -1,7 +1,7 @@
 {
   "name": "Eksen Finans",
   "short_name": "Eksen Finans",
-  "description": "Muhasebe ve danışmanlık; görseller temsilîdir.",
+  "description": "Eksen Finans: muhasebe, vergi beyannameleri, bordro ve mali danışmanlık; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

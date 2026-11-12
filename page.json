@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Dosyadan rapora; vadesinden sonrasına.",
-        "en": "From file to report; from deadline to beyond.",
-        "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+        "tr": "Defterden beyannameye; vade takibinden dönem raporuna.",
+        "en": "From the ledger to the tax return; from deadline tracking to the period report.",
+        "ar": "من الدفاتر إلى الإقرارات؛ ومن متابعة المواعيد إلى تقرير الفترة."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Muhasebe ve danışmanlık; görseller temsilîdir.",
-        "en": "Accounting and advisory; images are representative.",
-        "ar": "محاسبة واستشارية؛ الصور تمثيلية."
+        "tr": "Muhasebe, beyanname ve bordro; görseller temsilîdir.",
+        "en": "Accounting, tax returns and payroll; images are representative.",
+        "ar": "محاسبة وإقرارات ضريبية ورواتب؛ الصور تمثيلية."
       }
     },
     {

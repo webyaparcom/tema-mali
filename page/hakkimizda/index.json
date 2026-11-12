@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Muhasebe ve danışmanlık; görseller temsilîdir.",
-    "en": "Accounting and advisory; images are representative.",
-    "ar": "محاسبة واستشارية؛ الصور تمثيلية."
+    "tr": "Muhasebe, beyanname ve bordro; görseller temsilîdir.",
+    "en": "Accounting, tax returns and payroll; images are representative.",
+    "ar": "محاسبة وإقرارات ضريبية ورواتب؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:43.816Z",
+  "update": "2026-11-12T07:36:29.489Z",
   "date": "2026-10-30"
 }

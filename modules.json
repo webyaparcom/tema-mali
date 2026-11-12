@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Danışma iste",
+          "en": "Consultation",
+          "ar": "اطلب استشارة"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "hukuk-hero-buro.webp",
+        "img": "saas-ekip-alani.webp",
         "video": "",
         "poster": "",
         "alt": "Eksen Finans",
@@ -1534,28 +1545,28 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Mali müşavirlik",
-          "en": "Tax advisory",
-          "ar": "استشارة مالية"
+          "en": "Accounting and tax advisory",
+          "ar": "استشارات مالية ومحاسبة"
         },
         "title": {
-          "tr": "Rakamlar, seste kalmalı",
-          "en": "The numbers stay with you",
-          "ar": "الأرقام تبقى معك"
+          "tr": "Kayıtlarınız düzenli, vadeleriniz takipte",
+          "en": "Your books in order, your deadlines tracked",
+          "ar": "سجلاتك منظمة ومواعيدك تحت المتابعة"
         },
         "metin": {
-          "tr": "Eksen Finans, muhasebe ve danışmanlık sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Eksen offers accounting and advisory. Images are representative and text is fictional.",
-          "ar": "يقدم إكسن محاسبة واستشارية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Muhasebe, beyanname ve bordro işlerini takvimine göre yürütür; her dönem sonunda sade bir rapor sunarız. Görseller temsilî, metinler kurgusaldır.",
+          "en": "We run accounting, tax returns and payroll to a calendar and give you a plain report at the end of each period. Images are representative and text is fictional.",
+          "ar": "ندير أعمال المحاسبة والإقرارات الضريبية والرواتب وفق جدول زمني، ونقدّم لك تقريرًا مبسطًا في نهاية كل فترة. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Hizmetler",
           "en": "Services",
-          "ar": "خدمات"
+          "ar": "الخدمات"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Danışma iste",
-          "en": "Request advisory",
+          "en": "Request a consultation",
           "ar": "اطلب استشارة"
         },
         "cta2_url": "teklif-al",
@@ -1603,7 +1614,7 @@
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1614,47 +1625,32 @@
       "data": [
         {
           "deger": 350,
-          "sonek": "",
-          "ikon": "task_alt",
+          "sonek": "+",
+          "ikon": "folder_shared",
           "etiket": {
-            "tr": "Dosya",
-            "en": "Files",
-            "ar": "ملفات"
+            "tr": "Mükellef dosyası",
+            "en": "Client files",
+            "ar": "ملف عميل"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
-          "deger": 100,
-          "sonek": "%",
-          "ikon": "schedule",
-          "etiket": {
-            "tr": "Teslim zamanında",
-            "en": "On-time delivery",
-            "ar": "التسليم في الوقت"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 4,
+          "deger": 14,
           "sonek": "",
-          "ikon": "forum",
+          "ikon": "workspace_premium",
           "etiket": {
-            "tr": "Yanıt kanalı",
-            "en": "Response channel",
-            "ar": "قناة الرد"
+            "tr": "Yıllık deneyim",
+            "en": "Years of experience",
+            "ar": "سنوات الخبرة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
@@ -1664,12 +1660,27 @@
           "etiket": {
             "tr": "Ofis personeli",
             "en": "Office staff",
-            "ar": "طاقم المكتب"
+            "ar": "موظفو المكتب"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
+          }
+        },
+        {
+          "deger": 4,
+          "sonek": "",
+          "ikon": "forum",
+          "etiket": {
+            "tr": "İletişim kanalı",
+            "en": "Contact channels",
+            "ar": "قنوات التواصل"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية افتراضية"
           }
         }
       ],
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Ofis",
-          "en": "The office",
-          "ar": "المكتب"
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
         },
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
-          "tr": "Dosyadan rapora; vadesinden sonrasına.",
-          "en": "From file to report; from deadline to beyond.",
-          "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+          "tr": "Defterden beyannameye; vade takibinden dönem raporuna.",
+          "en": "From the ledger to the tax return; from deadline tracking to the period report.",
+          "ar": "من الدفاتر إلى الإقرارات؛ ومن متابعة المواعيد إلى تقرير الفترة."
         }
       },
       "data": [
         {
           "icon": "account_balance",
           "name": {
-            "tr": "Beyanname",
-            "en": "Declaration",
-            "ar": "الإقرار"
+            "tr": "Vergi beyannameleri",
+            "en": "Tax returns",
+            "ar": "الإقرارات الضريبية"
           },
           "description": {
-            "tr": "Aylık ve yıllık beyan (demo).",
-            "en": "Monthly and annual declaration (demo).",
-            "ar": "إقرار شهري وسنوي (تجريبي)."
+            "tr": "KDV, muhtasar ve gelir/kurumlar vergisi beyannameleri takvimine göre hazırlanır.",
+            "en": "VAT, withholding and income/corporate tax returns are prepared to the calendar.",
+            "ar": "تُعدّ إقرارات ضريبة القيمة المضافة والاستقطاع وضريبة الدخل والشركات وفق الجدول الزمني."
           }
         },
         {
-          "icon": "description",
+          "icon": "receipt_long",
           "name": {
-            "tr": "Taslak denetimi",
-            "en": "Draft review",
-            "ar": "مراجعة المسودة"
+            "tr": "Defter ve belge düzeni",
+            "en": "Books and documents",
+            "ar": "الدفاتر والمستندات"
           },
           "description": {
-            "tr": "Belge ve fatura denetimi.",
-            "en": "Document and invoice review.",
-            "ar": "مراجعة المستندات والفواتير."
+            "tr": "Fatura ve fişler kaydedilir; eksik belge için önceden haber verilir.",
+            "en": "Invoices and receipts are recorded; you are told in advance about missing documents.",
+            "ar": "تُسجَّل الفواتير والإيصالات ويُبلَّغ العميل مسبقًا بالمستندات الناقصة."
           }
         },
         {
-          "icon": "groups",
+          "icon": "payments",
           "name": {
-            "tr": "Ekip ofisi",
-            "en": "Team office",
-            "ar": "مكتب الفريق"
+            "tr": "Bordro ve SGK",
+            "en": "Payroll and social security",
+            "ar": "الرواتب والتأمينات"
           },
           "description": {
-            "tr": "Toplantı ve dosya yönetimi.",
-            "en": "Meeting and file management.",
-            "ar": "إدارة الاجتماعات والملفات."
+            "tr": "Aylık bordro, işe giriş-çıkış ve SGK bildirimleri.",
+            "en": "Monthly payroll, hiring and termination filings and social security notifications.",
+            "ar": "كشوف الرواتب الشهرية وإشعارات التوظيف والإنهاء وبلاغات التأمينات."
           }
         },
         {
-          "icon": "task_alt",
+          "icon": "storefront",
           "name": {
-            "tr": "Rapor",
-            "en": "Report",
-            "ar": "التقارير"
+            "tr": "Şirket kuruluşu",
+            "en": "Company formation",
+            "ar": "تأسيس الشركات"
           },
           "description": {
-            "tr": "Dönem sonu rapor (demo).",
-            "en": "End-of-period report (demo).",
-            "ar": "تقرير نهاية الفترة (تجريبي)."
+            "tr": "Şahıs ve limited şirket kuruluşunda evrak ve başvuru desteği.",
+            "en": "Paperwork and application support for sole proprietorships and limited companies.",
+            "ar": "دعم في المستندات والطلبات لتأسيس المنشآت الفردية والشركات ذات المسؤولية المحدودة."
           }
         },
         {
-          "icon": "verified",
+          "icon": "analytics",
           "name": {
-            "tr": "Uygunluk",
-            "en": "Compliance",
-            "ar": "المطابقة"
+            "tr": "Dönem raporu",
+            "en": "Period report",
+            "ar": "تقرير الفترة"
           },
           "description": {
-            "tr": "Standart ve kayıt kontrolü.",
-            "en": "Standards and record control.",
-            "ar": "تحقق المعايير والسجلات."
+            "tr": "Gelir-gider özeti ve karşılaştırma, dönem sonunda sade dille.",
+            "en": "An income and expense summary with comparisons, in plain language at period end.",
+            "ar": "ملخص الإيرادات والمصروفات مع مقارنات بلغة مبسطة في نهاية الفترة."
           }
         },
         {
-          "icon": "schedule",
+          "icon": "event",
           "name": {
-            "tr": "Takvim",
-            "en": "Calendar",
-            "ar": "التقويم"
+            "tr": "Vade takvimi",
+            "en": "Deadline calendar",
+            "ar": "جدول المواعيد"
           },
           "description": {
-            "tr": "Vade ve hatırlatma listesi.",
-            "en": "Deadline and reminder list.",
-            "ar": "قائمة المواعيد النهائية والتنبيهات."
+            "tr": "Beyan ve ödeme tarihleri hatırlatma listesiyle izlenir.",
+            "en": "Filing and payment dates are tracked with a reminder list.",
+            "ar": "تُتابَع مواعيد الإقرار والسداد بقائمة تذكير."
           }
         }
       ],
@@ -1819,14 +1830,14 @@
           "ar": "كيف نعمل؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dönem boyunca dört adım",
+          "en": "Four steps through the period",
+          "ar": "أربع خطوات على مدار الفترة"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Tanışmadan dönem raporuna aynı düzen.",
+          "en": "The same routine from introduction to period report.",
+          "ar": "النظام نفسه من التعارف حتى تقرير الفترة."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Yanıt",
-            "en": "Intake",
-            "ar": "الاستقبال"
+            "tr": "Tanışma",
+            "en": "Introduction",
+            "ar": "التعارف"
           },
           "text": {
-            "tr": "Dosya ve vaka açılması.",
-            "en": "Opening of the file and case.",
-            "ar": "فتح الملف والقضية."
+            "tr": "Şirket türü, defter düzeni ve mevcut belgeler gözden geçirilir.",
+            "en": "Company type, bookkeeping set-up and existing documents are reviewed.",
+            "ar": "تُراجَع طبيعة الشركة ونظام الدفاتر والمستندات الحالية."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "İzleme",
-            "en": "Tracking",
-            "ar": "التتبع"
+            "tr": "Belge akışı",
+            "en": "Document flow",
+            "ar": "تدفق المستندات"
           },
           "text": {
-            "tr": "Belge ve dosya takibi.",
-            "en": "Document and file tracking.",
-            "ar": "تتبع المستندات والملفات."
+            "tr": "Fatura ve belgeler her ay belirlenen kanaldan teslim alınır.",
+            "en": "Invoices and documents are received each month through the agreed channel.",
+            "ar": "تُستلم الفواتير والمستندات كل شهر عبر القناة المتفق عليها."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Bulgu",
-            "en": "Findings",
-            "ar": "النتائج"
+            "tr": "Kayıt ve beyan",
+            "en": "Booking and filing",
+            "ar": "القيد والإقرار"
           },
           "text": {
-            "tr": "Tespit ve açıklama.",
-            "en": "Findings and explanation.",
-            "ar": "نتائج التوضيح."
+            "tr": "Kayıtlar işlenir, beyannameler vadesinden önce hazırlanır.",
+            "en": "Entries are booked and returns are prepared before their deadlines.",
+            "ar": "تُسجَّل القيود وتُعدّ الإقرارات قبل مواعيدها."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Handover",
-            "ar": "التسليم"
+            "tr": "Rapor",
+            "en": "Report",
+            "ar": "التقرير"
           },
           "text": {
-            "tr": "İmza ve dosya kapatma.",
-            "en": "Signature and file closing.",
-            "ar": "التوقيع وإغلاق الملف."
+            "tr": "Dönem sonu özet rapor ve açık kalemler paylaşılır.",
+            "en": "A period-end summary and open items are shared.",
+            "ar": "يُشارَك ملخص نهاية الفترة والبنود المفتوحة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Ofis ekibi",
+          "en": "Office team",
+          "ar": "فريق المكتب"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Dosyanızla ilgilenenler",
+          "en": "Who looks after your file",
+          "ar": "من يتابعون ملفك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Gülay A.",
           "role": {
-            "tr": "Baş uzman",
-            "en": "Chief specialist",
-            "ar": "خبير رئيسي"
+            "tr": "Mali müşavir",
+            "en": "Certified public accountant",
+            "ar": "محاسبة قانونية"
           },
           "bio": {
-            "tr": "11 yıl beyan.",
-            "en": "11 years of declaration.",
-            "ar": "١١ عامًا في الإقرار."
+            "tr": "Vergi beyannamesi ve şirket danışmanlığında 11 yıl (kurgusal).",
+            "en": "11 years in tax returns and company advisory (fictional).",
+            "ar": "11 عامًا في الإقرارات الضريبية واستشارات الشركات (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Onur B.",
           "role": {
-            "tr": "Denetmen",
-            "en": "Auditor",
-            "ar": "مدقق"
+            "tr": "Muhasebe uzmanı",
+            "en": "Accounting specialist",
+            "ar": "أخصائي محاسبة"
           },
           "bio": {
-            "tr": "8 yıl fatura.",
-            "en": "8 years of invoicing.",
-            "ar": "٨ سنوات في الفواتير."
+            "tr": "Defter, fatura ve mutabakat işlerinde 8 yıl (kurgusal).",
+            "en": "8 years in bookkeeping, invoicing and reconciliations (fictional).",
+            "ar": "8 سنوات في الدفاتر والفواتير والمطابقات (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Deniz Ç.",
           "role": {
-            "tr": "Sekreter",
-            "en": "Office secretary",
-            "ar": "سكرتير"
+            "tr": "Bordro sorumlusu",
+            "en": "Payroll officer",
+            "ar": "مسؤولة الرواتب"
           },
           "bio": {
-            "tr": "4 yıl dosya.",
-            "en": "4 years of files.",
-            "ar": "٤ سنوات في الملفات."
+            "tr": "Bordro ve SGK bildirimlerinde 4 yıl (kurgusal).",
+            "en": "4 years in payroll and social security filings (fictional).",
+            "ar": "4 سنوات في الرواتب وبلاغات التأمينات (افتراضية)."
           },
           "img": ""
         }
@@ -1998,13 +2009,13 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
+          "tr": "Mükelleflerimiz ne diyor?",
+          "en": "What our clients say",
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
@@ -2019,46 +2030,46 @@
         {
           "name": "C. Yılmaz.",
           "role": {
-            "tr": "Şirket",
-            "en": "Corporate client",
-            "ar": "شركة"
+            "tr": "Şirket sahibi",
+            "en": "Company owner",
+            "ar": "صاحب شركة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Rapor zamanında; açıklama net.",
-            "en": "Report on time; clear explanation.",
-            "ar": "التقرير في الوقت؛ الشرح واضح."
+            "tr": "Beyannameler vadesinden önce hazır oluyor; açıklamalar anlaşılır.",
+            "en": "Returns are ready before their deadlines and the explanations are clear.",
+            "ar": "الإقرارات جاهزة قبل مواعيدها والشروحات واضحة."
           }
         },
         {
           "name": "V. Aksoy.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Serbest meslek",
+            "en": "Freelancer",
+            "ar": "صاحب مهنة حرة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Dosyım düzenli; vade hatırlatması geldi.",
-            "en": "My file is organized; deadline reminder arrived.",
-            "ar": "ملفي منظم؛ جاء تنبيه الميعاد."
+            "tr": "Belgelerimi telefondan gönderiyorum; eksik olanı önceden söylüyorlar.",
+            "en": "I send my documents from my phone and they tell me in advance what is missing.",
+            "ar": "أرسل مستنداتي من الهاتف ويخبرونني مسبقًا بما ينقص."
           }
         },
         {
           "name": "E. Sarı.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Esnaf",
+            "en": "Shopkeeper",
+            "ar": "صاحب محل"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Süreç açık; fatura düzenli.",
-            "en": "Process is clear; invoice is regular.",
-            "ar": "العملية واضحة؛ الفاتورة منتظمة."
+            "tr": "Dönem raporu sade; neye ne kadar ödediğimi görebiliyorum.",
+            "en": "The period report is simple; I can see what I paid for what.",
+            "ar": "تقرير الفترة بسيط؛ أستطيع أن أرى ما دفعته ولماذا."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "2px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Ofiste neler yapıyoruz?",
+          "en": "What we do in the office",
+          "ar": "ماذا نفعل في المكتب؟"
         },
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,33 @@
       "data": [
         {
           "baslik": {
-            "tr": "Beyanname",
-            "en": "Declaration",
-            "ar": "الإقرار"
+            "tr": "Vergi beyannameleri",
+            "en": "Tax returns",
+            "ar": "الإقرارات الضريبية"
           },
           "metin": {
-            "tr": "Aylık ve yıllık beyan (demo).",
-            "en": "Monthly and annual declaration (demo).",
-            "ar": "إقرار شهري وسنوي (تجريبي)."
+            "tr": "KDV, muhtasar ve gelir/kurumlar vergisi beyannameleri takvimine göre hazırlanır.",
+            "en": "VAT, withholding and income/corporate tax returns are prepared to the calendar.",
+            "ar": "تُعدّ إقرارات ضريبة القيمة المضافة والاستقطاع وضريبة الدخل والشركات وفق الجدول الزمني."
+          },
+          "img": "saas-rapor.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Defter ve belge düzeni",
+            "en": "Books and documents",
+            "ar": "الدفاتر والمستندات"
+          },
+          "metin": {
+            "tr": "Fatura ve fişler kaydedilir; eksik belge için önceden haber verilir.",
+            "en": "Invoices and receipts are recorded; you are told in advance about missing documents.",
+            "ar": "تُسجَّل الفواتير والإيصالات ويُبلَّغ العميل مسبقًا بالمستندات الناقصة."
           },
           "img": "hukuk-masa-detay.webp",
           "alt": {
@@ -2145,35 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Taslak denetimi",
-            "en": "Draft review",
-            "ar": "مراجعة المسودة"
+            "tr": "Bordro ve SGK",
+            "en": "Payroll and social security",
+            "ar": "الرواتب والتأمينات"
           },
           "metin": {
-            "tr": "Belge ve fatura denetimi.",
-            "en": "Document and invoice review.",
-            "ar": "مراجعة المستندات والفواتير."
+            "tr": "Aylık bordro, işe giriş-çıkış ve SGK bildirimleri.",
+            "en": "Monthly payroll, hiring and termination filings and social security notifications.",
+            "ar": "كشوف الرواتب الشهرية وإشعارات التوظيف والإنهاء وبلاغات التأمينات."
           },
-          "img": "hukuk-kitaplik.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Ekip ofisi",
-            "en": "Team office",
-            "ar": "مكتب الفريق"
-          },
-          "metin": {
-            "tr": "Toplantı ve dosya yönetimi.",
-            "en": "Meeting and file management.",
-            "ar": "إدارة الاجتماعات والملفات."
-          },
-          "img": "hukuk-buro-1.webp",
+          "img": "saas-dizustu.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "2px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Hizmet verdiğimiz sektörler",
+          "en": "Sectors we serve",
+          "ar": "القطاعات التي نخدمها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal firma adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional company names; they do not belong to a real organisation.",
+          "ar": "أسماء شركات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,19 +2257,19 @@
       },
       "data": [
         {
-          "name": "Demo Mükellef"
+          "name": "Demo Ticaret"
         },
         {
-          "name": "Demo İştirak"
+          "name": "Demo İnşaat"
         },
         {
-          "name": "Demo Arşiv"
+          "name": "Demo Lojistik"
         },
         {
-          "name": "Demo Denetim"
+          "name": "Demo Kafe"
         },
         {
-          "name": "Demo Şirket"
+          "name": "Demo Atölye"
         },
         {
           "name": "Demo Dernek"
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Belgeleri nasıl teslim ederim?",
+            "en": "How do I hand over documents?",
+            "ar": "كيف أسلّم المستندات؟"
+          },
+          "answer": {
+            "tr": "Ofise getirebilir ya da dijital kanaldan gönderebilirsiniz; her ay belirlenen tarihe kadar iletmeniz yeterlidir (demo).",
+            "en": "You can bring them to the office or send them digitally; delivering them by the agreed date each month is enough (demo).",
+            "ar": "يمكنك إحضارها إلى المكتب أو إرسالها رقميًا؛ يكفي تسليمها في التاريخ المتفق عليه كل شهر (تجريبي)."
+          },
           "soru": {
-            "tr": "Belgeler nasıl verilir?",
-            "en": "How are the documents submitted?",
-            "ar": "كيف تُسلَّم المستندات?"
+            "tr": "Belgeleri nasıl teslim ederim?",
+            "en": "How do I hand over documents?",
+            "ar": "كيف أسلّم المستندات؟"
           },
           "cevap": {
-            "tr": "Ofis teslimi veya dijital kanal; demo metindir.",
-            "en": "Office delivery or digital channel; this is a demo text.",
-            "ar": "تسليم في المكتب أو قناة رقمية؛ هذا نص تجريبي."
+            "tr": "Ofise getirebilir ya da dijital kanaldan gönderebilirsiniz; her ay belirlenen tarihe kadar iletmeniz yeterlidir (demo).",
+            "en": "You can bring them to the office or send them digitally; delivering them by the agreed date each month is enough (demo).",
+            "ar": "يمكنك إحضارها إلى المكتب أو إرسالها رقميًا؛ يكفي تسليمها في التاريخ المتفق عليه كل شهر (تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Ücret nasıl belirlenir?",
+            "en": "How is the fee set?",
+            "ar": "كيف تُحدَّد الأتعاب؟"
+          },
+          "answer": {
+            "tr": "İşletme türüne, belge hacmine ve bordro sayısına göre yazılı teklifle belirlenir; demo sitede fiyat yazılmaz.",
+            "en": "It is set in a written quote based on business type, document volume and payroll size; no prices are shown on this demo site.",
+            "ar": "تُحدَّد بعرض مكتوب حسب نوع النشاط وحجم المستندات وعدد الرواتب؛ ولا تُذكر أسعار في هذا الموقع التجريبي."
+          },
           "soru": {
-            "tr": "Fiyat nasıl belirlenir?",
-            "en": "How is the price set?",
-            "ar": "كيف يحدد السعر?"
+            "tr": "Ücret nasıl belirlenir?",
+            "en": "How is the fee set?",
+            "ar": "كيف تُحدَّد الأتعاب؟"
           },
           "cevap": {
-            "tr": "Kalem ve yoğunluğa göre; demo metin örnek vermez.",
-            "en": "Based on items and volume; this demo text gives no example.",
-            "ar": "حسب البنود والحجم؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "İşletme türüne, belge hacmine ve bordro sayısına göre yazılı teklifle belirlenir; demo sitede fiyat yazılmaz.",
+            "en": "It is set in a written quote based on business type, document volume and payroll size; no prices are shown on this demo site.",
+            "ar": "تُحدَّد بعرض مكتوب حسب نوع النشاط وحجم المستندات وعدد الرواتب؛ ولا تُذكر أسعار في هذا الموقع التجريبي."
           }
         },
         {
+          "question": {
+            "tr": "Vergi avantajı vaat ediyor musunuz?",
+            "en": "Do you promise tax savings?",
+            "ar": "هل تعدون بتوفير ضريبي؟"
+          },
+          "answer": {
+            "tr": "Hayır; hesaplamalar mevzuata göre yapılır, sonuç vaadi verilmez. Karar öncesinde yazılı bilgi sunulur.",
+            "en": "No; calculations follow the legislation and no outcome is promised. Written information is provided before any decision.",
+            "ar": "لا؛ تُجرى الحسابات وفق التشريعات ولا نعد بنتائج. تُقدَّم معلومات مكتوبة قبل أي قرار."
+          },
+          "soru": {
+            "tr": "Vergi avantajı vaat ediyor musunuz?",
+            "en": "Do you promise tax savings?",
+            "ar": "هل تعدون بتوفير ضريبي؟"
+          },
+          "cevap": {
+            "tr": "Hayır; hesaplamalar mevzuata göre yapılır, sonuç vaadi verilmez. Karar öncesinde yazılı bilgi sunulur.",
+            "en": "No; calculations follow the legislation and no outcome is promised. Written information is provided before any decision.",
+            "ar": "لا؛ تُجرى الحسابات وفق التشريعات ولا نعد بنتائج. تُقدَّم معلومات مكتوبة قبل أي قرار."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
-          },
-          "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "2px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Danışma isteyin",
+          "en": "Request a consultation",
+          "ar": "اطلب استشارة"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,18 +2472,18 @@
           "ar": "Eksen Finans"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "address": {
           "tr": "Eksen Sokak No: 6, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "6 Axis Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع محور رقم 6، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع إكسن رقم 6، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 022 01 01",
         "whatsapp": "903420220101",
-        "email": "danısman@eksen.example",
+        "email": "danisman@eksen.example",
         "hours": {
           "tr": "Pzt–Cmt 09:00 – 17:30",
           "en": "Mon–Sat 09:00 – 17:30",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Danışma formu",
+          "en": "Consultation form",
+          "ar": "نموذج استشارة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Muhasebe hizmeti",
+              "en": "Accounting service",
+              "ar": "خدمة محاسبة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Şirket kuruluşu",
+              "en": "Company formation",
+              "ar": "تأسيس شركة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Bordro ve SGK",
+              "en": "Payroll and social security",
+              "ar": "الرواتب والتأمينات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Eksen Finans"
         },
         "description": {
-          "tr": "Eksen Finans, muhasebe ve danışmanlık sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Eksen offers accounting and advisory. Images are representative and text is fictional.",
-          "ar": "يقدم إكسن محاسبة واستشارية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Eksen Finans, bireysel ve şirket mükelleflerine muhasebe, beyanname ve bordro hizmeti sunan kurgusal bir demo mali müşavirlik ofisidir. Görseller temsilî, metinler kurgusaldır.",
+          "en": "Eksen Finans is a fictional demo accounting office that provides bookkeeping, tax return and payroll services to individuals and companies. Images are representative and text is fictional.",
+          "ar": "إكسن فاينانس مكتب محاسبة تجريبي افتراضي يقدّم خدمات الدفاتر والإقرارات الضريبية والرواتب للأفراد والشركات. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Dosya masası",
-          "en": "File desk",
-          "ar": "مكتب الملفات"
+          "tr": "Vade takvimi",
+          "en": "Deadline calendar",
+          "ar": "جدول المواعيد"
         },
         "spot2": {
-          "tr": "Her dosya tek masada; imza ve tarih kaydı.",
-          "en": "Every file at one desk; signature and date record.",
-          "ar": "كل ملف على مكتب واحد؛ سجل التوقيع والتاريخ."
+          "tr": "Beyan ve ödeme tarihleri her mükellef için takvime işlenir.",
+          "en": "Filing and payment dates are entered in a calendar for every client.",
+          "ar": "تُدرج مواعيد الإقرار والسداد في جدول لكل عميل."
         },
-        "icon2": "verified",
+        "icon2": "event",
         "name3": {
-          "tr": "Bulgu defteri",
-          "en": "Findings book",
-          "ar": "دفتر النتائج"
+          "tr": "Gizlilik",
+          "en": "Confidentiality",
+          "ar": "السرية"
         },
         "spot3": {
-          "tr": "Her dönem bulgu kaydı ve açıklama.",
-          "en": "A findings record and explanation for each period.",
-          "ar": "سجل النتائج وشرح لكل فترة."
+          "tr": "Mali bilgiler yalnızca ilgili ekip tarafından görülür.",
+          "en": "Financial information is seen only by the team responsible.",
+          "ar": "لا يطّلع على المعلومات المالية إلا الفريق المسؤول."
         },
-        "icon3": "schedule",
-        "img": "hukuk-lamba.webp",
+        "icon3": "lock",
+        "img": "hukuk-masa-detay.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2735,11 +2787,11 @@
         },
         "phone": "+90 342 022 01 01",
         "whatsapp": "903420220101",
-        "email": "danısman@eksen.example",
+        "email": "danisman@eksen.example",
         "address": {
           "tr": "Eksen Sokak No: 6, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "6 Axis Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع محور رقم 6، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع إكسن رقم 6، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:00 – 17:30",
+          "en": "Mon–Sat 09:00 – 17:30",
+          "ar": "الاثنين–السبت 09:00 – 17:30"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Danışma ve belge soruları için",
+          "en": "For consultation and document questions",
+          "ar": "للاستشارة وأسئلة المستندات"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,23 +2899,23 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "2px",
         "title": {
-          "tr": "Dönem kapanışında",
-          "en": "At the end of the period",
-          "ar": "في نهاية الفترة"
+          "tr": "Dönem kapanışına hazır olun",
+          "en": "Get ready for period end",
+          "ar": "استعدّ لإقفال الفترة"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Mevcut durumunuzu yazın; ilk görüşmede yol haritasını birlikte çıkaralım. Bu demo sitede veri saklanmaz.",
+          "en": "Describe where you are and we will draw up a roadmap together at the first meeting. No data is stored on this demo site.",
+          "ar": "اكتب لنا وضعك الحالي ونضع خارطة الطريق معًا في الاجتماع الأول. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Danışma isteyin",
+          "en": "Request a consultation",
+          "ar": "اطلب استشارة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
+          "tr": "Hizmetleri görün",
           "en": "See services",
           "ar": "شاهد الخدمات"
         },
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Eksen Finans ile iletişime geçmek istiyorum.",
-          "en": "Hello, I would like to get in touch with Eksen Finans.",
-          "ar": "مرحبًا، أودّ التواصل مع Eksen Finans."
+          "tr": "Merhaba, Eksen Finans'tan muhasebe hizmeti hakkında bilgi almak istiyorum.",
+          "en": "Hello, I would like some information about accounting services from Eksen Finans.",
+          "ar": "مرحبًا، أودّ الحصول على معلومات عن خدمات المحاسبة من إكسن فاينانس."
         },
         "img": "",
         "alt": {
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "2px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Eksen Finans demo temadır; içerik kurgusaldır.",
           "en": "Eksen Finans is a demo theme; the content is fictional.",
@@ -3056,10 +3108,10 @@
         "address": {
           "tr": "Eksen Sokak No: 6, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "6 Axis Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع محور رقم 6، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع إكسن رقم 6، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 022 01 01",
-        "email": "danısman@eksen.example",
+        "email": "danisman@eksen.example",
         "social": [],
         "legal": [
           {
