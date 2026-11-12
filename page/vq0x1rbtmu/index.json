@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Dosyadan rapora; vadesinden sonrasına.",
-    "en": "From file to report; from deadline to beyond.",
-    "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+    "tr": "Defterden beyannameye; vade takibinden dönem raporuna.",
+    "en": "From the ledger to the tax return; from deadline tracking to the period report.",
+    "ar": "من الدفاتر إلى الإقرارات؛ ومن متابعة المواعيد إلى تقرير الفترة."
   },
   "keyword": {
-    "tr": "Ofis",
-    "en": "The office",
-    "ar": "المكتب"
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:40.783Z",
-  "update": "2026-11-05T23:44:43.813Z"
+  "update": "2026-11-12T07:36:29.486Z"
 }

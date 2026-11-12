@@ -27,9 +27,9 @@
   "index": 0,
   "url": "",
   "text": {
-    "tr": "<h2>Misyonumuz</h2>\n<p>Üretimi, net fiyatı ve zamanında teslimi sunmak.</p>",
-    "en": "<h2>Our mission</h2>\n<p>To offer production, clear pricing and on-time delivery.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تقديم الإنتاج والسعر الواضح والتسليم في الوقت.</p>"
+    "tr": "<h2>Misyonumuz</h2>\n<p>Mükelleflerin kayıtlarını düzenli tutmak, yasal süreleri kaçırmadan beyanlarını hazırlamak ve açık bilgi vermek.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To keep clients' records in order, prepare their filings without missing legal deadlines and give clear information.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>الحفاظ على سجلات العملاء منظمة وإعداد إقراراتهم دون تفويت المواعيد القانونية وتقديم معلومات واضحة.</p>"
   },
   "title": {
     "tr": "Misyon",
@@ -37,7 +37,7 @@
     "ar": "المهمة"
   },
   "date": "2026-11-05T18:57:25.925Z",
-  "update": "2026-11-05T23:44:43.834Z",
+  "update": "2026-11-12T07:36:29.513Z",
   "sablonIzi": "a8a6ac234dced5af",
   "sablonIziDil": {
     "en": "3f5f6c628dec679f",

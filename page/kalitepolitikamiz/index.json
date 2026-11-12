@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Net metin, ölçülü veri ve kayıt kültürü esastır.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Clear text, measured data and a record culture are essential.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>النص الواضح والبيانات المتوازنة وثقافة السجل أساسية.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Doğru kayıt, vade takibi, gizlilik ve yazılı bilgilendirme esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Accurate records, deadline tracking, confidentiality and written information are essential.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>دقة القيود ومتابعة المواعيد والسرية والإفادة الكتابية أساس عملنا.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:25.925Z",
-  "update": "2026-11-05T23:44:43.836Z",
+  "update": "2026-11-12T07:36:29.515Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Muhasebe ve danışmanlık; görseller temsilîdir.",
-    "en": "Accounting and advisory; images are representative.",
-    "ar": "محاسبة واستشارية؛ الصور تمثيلية."
+    "tr": "Eksen Finans: muhasebe, vergi beyannameleri, bordro ve mali danışmanlık; görseller temsilîdir.",
+    "en": "Eksen Finans: accounting, tax returns, payroll and financial advisory; images are representative.",
+    "ar": "إكسن فاينانس: محاسبة وإقرارات ضريبية ورواتب واستشارات مالية؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "mali, finans, danışmanlık",
-    "en": "accounting, finance, advisory",
-    "ar": "محاسبة، مالية، استشارية"
+    "tr": "muhasebe, mali müşavir, beyanname, bordro, vergi",
+    "en": "accounting, tax advisor, tax return, payroll, tax",
+    "ar": "محاسبة، مستشار مالي، إقرار ضريبي، رواتب، ضريبة"
   },
   "category": "Kurumsal",
   "name": "Eksen Finans",
